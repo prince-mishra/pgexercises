@@ -374,7 +374,8 @@ sub genResults {
             $result = $response->decoded_content;
         } else {
             print "\n ERROR: " . $response->decoded_content . "\n";
-            die("ERROR: " . $response->status_line . "\n");
+            #die("ERROR: " . $response->status_line . "\n");
+            return ("", "{}");
         }
         
         print "\nRESULT: " . $result . "\n";

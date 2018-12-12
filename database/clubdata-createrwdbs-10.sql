@@ -1,0 +1,80 @@
+CREATE DATABASE exercisesrw0;
+GRANT CONNECT ON DATABASE exercisesrw0 TO pgexercises;
+GRANT CONNECT ON DATABASE exercisesrw0 TO pgeadmin;
+GRANT CREATE ON DATABASE exercisesrw0 to pgeadmin;
+\c exercisesrw0;
+REVOKE ALL PRIVILEGES ON SCHEMA PUBLIC FROM pgexercises;
+REVOKE ALL PRIVILEGES ON SCHEMA PUBLIC FROM pgeadmin;
+
+CREATE DATABASE exercisesrw1;
+GRANT CONNECT ON DATABASE exercisesrw1 TO pgexercises;
+GRANT CONNECT ON DATABASE exercisesrw1 TO pgeadmin;
+GRANT CREATE ON DATABASE exercisesrw1 to pgeadmin;
+\c exercisesrw1;
+REVOKE ALL PRIVILEGES ON SCHEMA PUBLIC FROM pgexercises;
+REVOKE ALL PRIVILEGES ON SCHEMA PUBLIC FROM pgeadmin;
+
+CREATE DATABASE exercisesrw2;
+GRANT CONNECT ON DATABASE exercisesrw2 TO pgexercises;
+GRANT CONNECT ON DATABASE exercisesrw2 TO pgeadmin;
+GRANT CREATE ON DATABASE exercisesrw2 to pgeadmin;
+\c exercisesrw2;
+REVOKE ALL PRIVILEGES ON SCHEMA PUBLIC FROM pgexercises;
+REVOKE ALL PRIVILEGES ON SCHEMA PUBLIC FROM pgeadmin;
+
+CREATE DATABASE exercisesrw3;
+GRANT CONNECT ON DATABASE exercisesrw3 TO pgexercises;
+GRANT CONNECT ON DATABASE exercisesrw3 TO pgeadmin;
+GRANT CREATE ON DATABASE exercisesrw3 to pgeadmin;
+\c exercisesrw3;
+REVOKE ALL PRIVILEGES ON SCHEMA PUBLIC FROM pgexercises;
+REVOKE ALL PRIVILEGES ON SCHEMA PUBLIC FROM pgeadmin;
+
+CREATE DATABASE exercisesrw4;
+GRANT CONNECT ON DATABASE exercisesrw4 TO pgexercises;
+GRANT CONNECT ON DATABASE exercisesrw4 TO pgeadmin;
+GRANT CREATE ON DATABASE exercisesrw4 to pgeadmin;
+\c exercisesrw4;
+REVOKE ALL PRIVILEGES ON SCHEMA PUBLIC FROM pgexercises;
+REVOKE ALL PRIVILEGES ON SCHEMA PUBLIC FROM pgeadmin;
+
+CREATE DATABASE exercisesrw5;
+GRANT CONNECT ON DATABASE exercisesrw5 TO pgexercises;
+GRANT CONNECT ON DATABASE exercisesrw5 TO pgeadmin;
+GRANT CREATE ON DATABASE exercisesrw5 to pgeadmin;
+\c exercisesrw5;
+REVOKE ALL PRIVILEGES ON SCHEMA PUBLIC FROM pgexercises;
+REVOKE ALL PRIVILEGES ON SCHEMA PUBLIC FROM pgeadmin;
+
+CREATE DATABASE exercisesrw6;
+GRANT CONNECT ON DATABASE exercisesrw6 TO pgexercises;
+GRANT CONNECT ON DATABASE exercisesrw6 TO pgeadmin;
+GRANT CREATE ON DATABASE exercisesrw6 to pgeadmin;
+\c exercisesrw6;
+REVOKE ALL PRIVILEGES ON SCHEMA PUBLIC FROM pgexercises;
+REVOKE ALL PRIVILEGES ON SCHEMA PUBLIC FROM pgeadmin;
+
+CREATE DATABASE exercisesrw7;
+GRANT CONNECT ON DATABASE exercisesrw7 TO pgexercises;
+GRANT CONNECT ON DATABASE exercisesrw7 TO pgeadmin;
+GRANT CREATE ON DATABASE exercisesrw7 to pgeadmin;
+\c exercisesrw7;
+REVOKE ALL PRIVILEGES ON SCHEMA PUBLIC FROM pgexercises;
+REVOKE ALL PRIVILEGES ON SCHEMA PUBLIC FROM pgeadmin;
+
+CREATE DATABASE exercisesrw8;
+GRANT CONNECT ON DATABASE exercisesrw8 TO pgexercises;
+GRANT CONNECT ON DATABASE exercisesrw8 TO pgeadmin;
+GRANT CREATE ON DATABASE exercisesrw8 to pgeadmin;
+\c exercisesrw8;
+REVOKE ALL PRIVILEGES ON SCHEMA PUBLIC FROM pgexercises;
+REVOKE ALL PRIVILEGES ON SCHEMA PUBLIC FROM pgeadmin;
+
+CREATE DATABASE exercisesrw9;
+GRANT CONNECT ON DATABASE exercisesrw9 TO pgexercises;
+GRANT CONNECT ON DATABASE exercisesrw9 TO pgeadmin;
+GRANT CREATE ON DATABASE exercisesrw9 to pgeadmin;
+\c exercisesrw9;
+REVOKE ALL PRIVILEGES ON SCHEMA PUBLIC FROM pgexercises;
+REVOKE ALL PRIVILEGES ON SCHEMA PUBLIC FROM pgeadmin;
+
